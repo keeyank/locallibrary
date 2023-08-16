@@ -1,5 +1,9 @@
 {% extends "base_generic.html" %}
 
+{% block title %}
+    <title>Catalog</title>
+{% endblock %}
+
 {% block content %}
   <h1>Local Library Home</h1>
   <p>
@@ -13,5 +17,7 @@
     <li><strong>Copies:</strong> {{ num_instances }}</li>
     <li><strong>Copies available:</strong> {{ num_instances_available }}</li>
     <li><strong>Authors:</strong> {{ num_authors }}</li>
+    <li><strong>Comedy Genres:</strong> {{ num_comedy }}</li>
+    <li><strong>Unfunny Books:</strong> {{ num_unfunny_books }}</li>
   </ul>
 {% endblock %}
