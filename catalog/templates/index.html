@@ -12,6 +12,7 @@
   </p>
   <h2>Dynamic content</h2>
   <p>The library has the following record counts:</p>
+  
   <ul>
     <li><strong>Books:</strong> {{ num_books }}</li>
     <li><strong>Copies:</strong> {{ num_instances }}</li>
@@ -20,4 +21,8 @@
     <li><strong>Comedy Genres:</strong> {{ num_comedy }}</li>
     <li><strong>Unfunny Books:</strong> {{ num_unfunny_books }}</li>
   </ul>
+
+  <p>
+    You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.
+  </p>
 {% endblock %}
