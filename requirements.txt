@@ -1,0 +1,1 @@
+Django==4.2.3  # Replace '3.x' with the specific Django version you want
