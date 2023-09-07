@@ -27,6 +27,8 @@ SECRET_KEY = 'django-insecure-&fa8*gg)k@_)-(@l$0dkutisen_b6^srq_k#!=x8_#o6spz@ij
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# Allow any host to communicate with the server, regardless of IP address
+# Alternatively, we can specify particular hosts we would like to allow here
 ALLOWED_HOSTS = ['*']
 
 
